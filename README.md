@@ -1,5 +1,5 @@
 # bonita-widgets
 
 ## Regole Nomi:
-bwNomeWidget
-bpNomePagina
+- bwNomeWidget
+- bpNomePagina
