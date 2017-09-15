@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>Charts</title>
+</head>
+
+<body ng-app="simulator" id="top" ng-controller="BonitaWidgetCtrl">
+    <!-- TEMPLATE WIDGET BONITA -->
+    <div>
+        <canvas id="line" class="chart chart-line" chart-data="data" chart-labels="labels" chart-series="series" chart-options="options" chart-dataset-override="datasetOverride" chart-click="onClick"></canvas>
+    </div>
+
+    <!-- ASSET WIDGET BONITA -->
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/chart.js/dist/Chart.min.js"></script>
+    <!--<script src="bower_components/angular-chart.js/angular-chart.js"></script>-->
+    <script src="bower_components/lodash/dist/lodash.js"></script>
+    <script src="angular-chart-patched.js"></script>
+
+    <!-- CONTROLLER WIDGET BONITA -->
+    <script src="app.js"></script>
+</body>
+
+</html>
