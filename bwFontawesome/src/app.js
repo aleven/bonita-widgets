@@ -11,8 +11,10 @@
       return properties;
   });
 
-  app.controller('BonitaWidgetCtrl', ['$scope', 'bonitaPropertiesSim', function ($scope, properties) {
+  app.controller('BonitaWidgetCtrl', ['$scope', 'bonitaPropertiesSim', function ($scope, bonitaPropertiesSim) {
       var icon = "";
+      var properties = bonitaPropertiesSim;
+
       if (properties.icon) {
           icon = icon + properties.icon;
       }
