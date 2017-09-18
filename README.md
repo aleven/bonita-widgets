@@ -8,4 +8,4 @@ Struttura
 ## Regole Nomi:
 - bwNomeWidget
 - bpNomePagina
-
+- bwPdfjs
