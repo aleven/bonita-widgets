@@ -12,8 +12,10 @@
   });
 
   app.controller('BonitaWidgetCtrl', ['$scope', 'bonitaPropertiesSim', function ($scope, bonitaPropertiesSim) {
-      var icon = "";
       var properties = bonitaPropertiesSim;
+      /* CONTROLLER SOURCE */
+
+      var icon = "";
 
       if (properties.icon) {
           icon = icon + properties.icon;
